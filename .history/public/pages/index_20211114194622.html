@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mentalyze</title>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.3.2/socket.io.js"></script>
+  <link rel="stylesheet" href="../../style.css" />
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="perfil">
+      <a>
+        <img src="./assets/perfil.svg" alt="perfil">
+      </a>
+    </div>
+  </header>
+
+  <main class="container-main">
+    <div class="text">
+      <h1 class="title"> Olá</h1>
+      <h2>O que você precisa hoje?</h2>
+      <h3> Primeiro selecione o modo que você deseja</h3>
+    </div>
+    <div class="btns">
+      <a class="btn_1" href="./pages/mentoria.html">mentoria online</a>
+      <a class="btn_2" href="#">materiais</a>
+    </div>
+  </main>
+</body>
+<script type="text/javascript">
+  var socket = io('http://localhost:3000');
+
+</script>
+</html>

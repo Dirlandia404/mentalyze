@@ -4,12 +4,11 @@ body {
 }
 img{
     margin-top: 2vw;
-    margin-left: 11.5vw ;
+    margin-left: 15px ;
   }
 h1{
     margin-top: 8%;
     font-size:24px;
-    margin-left:35%;
 }
 form {
     text-align: center;
@@ -43,13 +42,13 @@ form {
 @media screen and (max-width: 640px) {
     img{
         margin-top: 5vw;
-        margin-left: 4vw ;
+        margin-left: -4vw ;
         margin-bottom: -10vw;
       }
     h1{
         font-size: 16px;
         margin-top: 50%;
-        margin-left: 10%;
+        margin-left: 20px;
     }
     form {
         padding: 8vw;

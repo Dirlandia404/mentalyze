@@ -10,6 +10,7 @@ html, body {
   }
   
   #chat {
+    margin-top: -20px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -53,7 +54,7 @@ html, body {
     margin: 2vw 0;
     padding: 2vw;
   }
-  @media screen and (max-width: 990px) {
+  @media screen and (max-width: 320px) {
     input,
     .messages {
       width: 90%;
@@ -68,21 +69,14 @@ html, body {
       height: 60%;
     }
   }
-  @media screen and (max-width: 640px) {
+  @media screen and (min-width: 320px) {
     input,
     .envio,
     .messages {
       width: 90%;
     }
-    #chat {
-      margin-top: -50px;
-      margin-bottom: 80px;
-    }
   
     .envio{
-      margin-top: 100px;
-      margin-bottom: -40vw;
-      position: relative;
       height: 12vw;
     }
     .envio input{

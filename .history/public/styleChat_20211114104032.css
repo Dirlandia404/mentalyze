@@ -68,21 +68,14 @@ html, body {
       height: 60%;
     }
   }
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 320px) {
     input,
     .envio,
     .messages {
       width: 90%;
     }
-    #chat {
-      margin-top: -50px;
-      margin-bottom: 80px;
-    }
   
     .envio{
-      margin-top: 100px;
-      margin-bottom: -40vw;
-      position: relative;
       height: 12vw;
     }
     .envio input{

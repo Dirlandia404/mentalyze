@@ -24,6 +24,7 @@ html, body {
     font-size: 1.5vw;
     border-radius: 10px;
     background-color: #8EACB2;
+    color: aliceblue;
   }
   
  .envio input {
@@ -55,11 +56,13 @@ html, body {
   }
   @media screen and (max-width: 990px) {
     input,
+    button,
     .messages {
       width: 90%;
     }
   
-    input{
+    input,
+    button {
       height: 2rem;
       font-size: 1rem;
     }
@@ -68,27 +71,17 @@ html, body {
       height: 60%;
     }
   }
-  @media screen and (max-width: 640px) {
+  @media screen and (min-width: 375px) {
     input,
-    .envio,
+    button,
     .messages {
       width: 90%;
     }
-    #chat {
-      margin-top: -50px;
-      margin-bottom: 80px;
-    }
   
-    .envio{
-      margin-top: 100px;
-      margin-bottom: -40vw;
-      position: relative;
-      height: 12vw;
-    }
-    .envio input{
-      width: 100%;
-      font-size: 16px;
-      height: 8vw;
+    .alter input {
+      height: 5rem;
+      width: 90%;
+      font-size: 1rem;
     }
   
     .messages {

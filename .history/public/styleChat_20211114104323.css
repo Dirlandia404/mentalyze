@@ -80,9 +80,7 @@ html, body {
     }
   
     .envio{
-      margin-top: 100px;
-      margin-bottom: -40vw;
-      position: relative;
+      margin-top: 50px;
       height: 12vw;
     }
     .envio input{

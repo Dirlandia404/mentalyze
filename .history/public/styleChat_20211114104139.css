@@ -76,13 +76,9 @@ html, body {
     }
     #chat {
       margin-top: -50px;
-      margin-bottom: 80px;
     }
   
     .envio{
-      margin-top: 100px;
-      margin-bottom: -40vw;
-      position: relative;
       height: 12vw;
     }
     .envio input{

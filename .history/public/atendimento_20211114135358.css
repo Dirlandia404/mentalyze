@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    align-items: center;
+    color: #135867;
+}
+h1{
+    margin-top: 8%;
+    font-size:24px;
+}
+form {
+    padding: 2vw;
+    margin-right:35%;
+    margin-left: 35%;
+    border: 1px solid #8EACB2;
+    border-radius: 8px;
+    width: 30%;
+    display: grid;
+    align-items: center;
+}
+.form{
+    margin-top: 20%;
+    align-items: center;
+}
+
+ input{
+    font-size: 16px;
+    color: #145665;
+    border: none;
+    border-radius: 4px;
+    padding: 6%;
+    margin-bottom: 10%;
+    width: 60%;
+    margin-left: 5%;
+    background-color: #75CEE1;
+}

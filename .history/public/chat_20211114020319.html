@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.3.2/socket.io.js"></script>
+    <link rel="stylesheet" href="styleChat.css" />
+</head>
+<body>
+
+    <form id="chat">
+       <div class="messages">
+
+        </div>
+        <input type="text" name="message">
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script type="text/javascript">
+        var socket = io('http://localhost:3000');
+
+
+        function renderMessage(message){
+            $('.messages').append('<div class="message">'  +message.message+'</div>');
+        }
+        socket.on('previousMessages', function(messages){
+            for(message of messages){
+                renderMessage(message)
+            }
+        })
+        socket.on('receivedMessage', function(message){
+            renderMessage(message);
+        });
+
+        $('#chat').submit(function(event){
+            event.preventDefault();
+
+            var message = $('input[name=message]').val();
+
+            if(message.length){
+                var messageObject = {
+                    message: message,
+                };
+
+                renderMessage(messageObject)
+                socket.emit('sendMessage', messageObject);
+            }
+        });
+    </script>
+    
+</body>
+</html>

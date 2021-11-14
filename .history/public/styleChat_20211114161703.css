@@ -28,6 +28,7 @@ html, body {
     padding: 2vw;
   }
   input {
+    position: fixed;
     width: 75vw;
     height: 5vw;
     padding: 0 2vw;
@@ -58,11 +59,13 @@ html, body {
   }
   
   .messages {
-    height: 80%;
     margin-left: 65%;
     margin-bottom: 10px;
+    background-color: #145665;
   }
- 
+  .messages:last-child{
+    margin-bottom: 10%;
+  }
  
   @media screen and (max-width: 990px) {
    
@@ -119,7 +122,5 @@ html, body {
   
     .messages {
       height: 60%;
-      margin-bottom: 10px;
-      margin-left: 150%;
     }
   }

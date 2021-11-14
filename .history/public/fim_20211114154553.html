@@ -15,12 +15,16 @@
         <strong>Atendimento finalizado!</strong>
         <h1>:)</h1>
         <p>Gostaria de salvar esse atendimento?</p>
-        <button> <a href="http://localhost:3000/chat">Sim</a></button>
-        <button><a href="./manutencao.html">Não precisa</a></button>
+        <button>Sim</button>
+        <button id="refresh">Não precisa</button>
     </form>
 </body>
 <script type="text/javascript">
     var socket = io('http://localhost:3000');
 
+    var reload = document.querySelector("#refresh");
+    reload.addEventListener("click", function(){
+        location.reload(true);
+    })
 </script>
 </html>

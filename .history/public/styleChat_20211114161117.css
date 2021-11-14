@@ -58,12 +58,14 @@ html, body {
   }
   
   .messages {
-    height: 80%;
-    margin-left: 65%;
-    margin-bottom: 10px;
+    width: 75vw;
+    height: 40vw;
+    margin: 2vw 0;
+    padding: 2vw;
   }
- 
- 
+  strong{
+    align-items: flex-end;
+  }
   @media screen and (max-width: 990px) {
    
     input,
@@ -119,7 +121,5 @@ html, body {
   
     .messages {
       height: 60%;
-      margin-bottom: 10px;
-      margin-left: 150%;
     }
   }

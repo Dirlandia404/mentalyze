@@ -119,7 +119,8 @@ html, body {
   
     .messages {
       height: 60%;
-      margin-bottom: 10px;
-      margin-left: 150%;
+        margin-left: 65%;
+        margin-bottom: 10px;
+     
     }
   }

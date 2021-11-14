@@ -89,10 +89,7 @@ html, body {
     .close{
       position: absolute;
       right: 10px;
-      top: 6px;
-    }
-    .close img{
-      width: 18px;
+      top: 3px;
     }
     input,
     .envio,

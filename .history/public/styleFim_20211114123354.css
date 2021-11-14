@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+}
+.finalizar  form{
+    margin-top: 15%;
+    border: 1px solid;
+    border-radius: 8px;
+    width: 30%;
+    display: inline-block;
+}
+strong{
+    margin-top: 20%;
+}

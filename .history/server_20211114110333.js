@@ -16,9 +16,7 @@ app.use("/chat", (req, res) => {
 app.use("/atendimento", (req, res) => {
   res.render("atendimento.html");
 });
-app.use("/finalizar", (req, res) => {
-  res.render("fim.html");
-});
+
 let messages = [];
 io.on("connection", (socket) => {
   socket.emit("previousMessages", messages);

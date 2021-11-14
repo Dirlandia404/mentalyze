@@ -8,19 +8,9 @@ html, body {
     box-sizing: border-box;
     border: none;
   }
- 
-  img{
-    margin-top: 2vw;
-    margin-left: 11.5vw ;
-  }
-  .close{
-    position: absolute;
-    right: 85px;
-    top: 2px;
-  }
-
+  
   #chat {
-    height: 90%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,13 +48,12 @@ html, body {
   }
   
   .messages {
-    width: 75vw;
-    height: 40vw;
-    margin: 2vw 0;
+    width: 50vw;
+    height: 50vw;
+  
     padding: 2vw;
   }
   @media screen and (max-width: 990px) {
-   
     input,
     .messages {
       width: 90%;
@@ -81,19 +70,6 @@ html, body {
   
   }
   @media screen and (max-width: 640px) {
-    img{
-      margin-top: 5vw;
-      margin-left: 4vw ;
-      margin-bottom: -10vw;
-    }
-    .close{
-      position: absolute;
-      right: 10px;
-      top: 6px;
-    }
-    .close img{
-      width: 18px;
-    }
     input,
     .envio,
     .messages {

@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+}
+form {
+    margin-top: 15%;
+    border: 1px solid;
+    border-radius: 8px;
+    width: 30%;
+    margin-left: 25%;
+    margin-right:25%;
+  
+}
+strong{
+    margin-top: 20%;
+}

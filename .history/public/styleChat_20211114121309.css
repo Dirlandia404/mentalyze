@@ -16,7 +16,7 @@ html, body {
   .close{
     position: absolute;
     right: 85px;
-    top: 2px;
+    top: 5px;
   }
 
   #chat {
@@ -85,14 +85,6 @@ html, body {
       margin-top: 5vw;
       margin-left: 4vw ;
       margin-bottom: -10vw;
-    }
-    .close{
-      position: absolute;
-      right: 10px;
-      top: 6px;
-    }
-    .close img{
-      width: 18px;
     }
     input,
     .envio,

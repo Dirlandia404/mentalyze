@@ -11,14 +11,8 @@ html, body {
  
   img{
     margin-top: 2vw;
-    margin-left: 11.5vw ;
+    margin-left: 13vw ;
   }
-  .close{
-    position: absolute;
-    right: 85px;
-    top: 2px;
-  }
-
   #chat {
     height: 90%;
     display: flex;
@@ -82,17 +76,8 @@ html, body {
   }
   @media screen and (max-width: 640px) {
     img{
-      margin-top: 5vw;
+      margin-top: 3vw;
       margin-left: 4vw ;
-      margin-bottom: -10vw;
-    }
-    .close{
-      position: absolute;
-      right: 10px;
-      top: 6px;
-    }
-    .close img{
-      width: 18px;
     }
     input,
     .envio,

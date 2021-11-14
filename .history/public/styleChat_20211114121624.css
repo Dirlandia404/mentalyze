@@ -89,10 +89,10 @@ html, body {
     .close{
       position: absolute;
       right: 10px;
-      top: 6px;
+      top: 3px;
     }
     .close img{
-      width: 18px;
+      width: 80%;
     }
     input,
     .envio,
